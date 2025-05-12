@@ -142,15 +142,15 @@ export const RIGHT_CONFETTI = {
   origin: { x: 1, y: 1 },
 };
 
-export const user = { name: 'Vibodh'};
-export const dashboardStats = {
+const user = { name: 'Vibodh'};
+const dashboardStats = {
   totalUsers: 12450,
   usersJoined: { currentMonthCount: 218, lastMonthCount: 176 },
   totalTrips: 3210,
   tripsCreated: { currentMonthCount: 150, lastMonthCount: 250 },
   userRole: { total: 62, currentMonthCount: 25, lastMonthCount: 15 },
 }
-export const allTrips = [{
+const allTrips = [{
   id: 1,
   name: "Tropical Rewind",
   imageUrls: ["/assets/images/sample1.jpg"],
@@ -187,7 +187,7 @@ export const allTrips = [{
     estimatedPrice: "$4,000",
   },
 ];
-export const users = [
+const users = [
   {
     id: 1,
     name: "John Doe",
